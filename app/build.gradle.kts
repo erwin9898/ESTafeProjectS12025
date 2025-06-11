@@ -5,7 +5,10 @@ plugins {
 
 android {
     namespace = "com.example.estafeprojects12025"
-    compileSdk = 34
+    compileSdk = 35
+    buildFeatures{
+        viewBinding=true
+    }
 
     defaultConfig {
         applicationId = "com.example.estafeprojects12025"
